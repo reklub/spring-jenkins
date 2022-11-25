@@ -9,4 +9,9 @@ public class HelloWorld {
     public String welcome(){
         return "#umniedziała";
     }
+
+    @GetMapping("/yetAnotherEndpoint")
+    public String beAnnoyed() {
+        return "Again?";
+    }
 }
